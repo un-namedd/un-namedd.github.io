@@ -700,9 +700,9 @@
 
 :root .unread_d8bfb3 {
     top: 50%;
-    left: 10px;
-    width: 6px;
-    height: 6px;
+    left: 15px;
+    width: 15px;
+    height: 15px;
     z-index: 1;
     background-color: var(--unread-color);
     border-radius: 10px;
@@ -713,8 +713,8 @@
 :root .unread_d8bfb3::before {
     content: "";
     position: absolute;
-    width: 6px;
-    height: 6px;
+    width: 15px;
+    height: 15px;
     background-color: inherit;
     border-radius: 100%;
     z-index: 1;
