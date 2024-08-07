@@ -702,7 +702,7 @@
     top: 50%;
     left: 15px;
     width: 15px;
-    height: 15px;
+    height: 14px;
     z-index: 5;
     background-color: var(--unread-color);
     border-radius: 10px;
@@ -714,7 +714,7 @@
     content: "";
     position: absolute;
     width: 15px;
-    height: 15px;
+    height: 14px;
     background-color: inherit;
     border-radius: 100%;
     z-index: 5;
