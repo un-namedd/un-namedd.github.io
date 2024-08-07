@@ -400,7 +400,7 @@
   flex-direction: column;
   background: linear-gradient(transparent, var(--background-tertiary) 15%);
 }
-:root .panels_a4d4d9 > .container_b2ca13 > .flex_bba380 > .button_f67531 {
+:root .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f > .button_adca65 {
   color: var(--user-buttons-color);
   margin: var(--user-buttons-spacing) auto 0 auto;
 }
@@ -1300,11 +1300,11 @@
 :root .customScroller_c25c6d > div {
   max-width: 95%;
 }
-:root .sidebar_a4d4d9 {
+:root .sidebar_c25c6d {
   padding: 60px 0 35px 65px;
   width: 285px;
 }
-:root .sidebar_a4d4d9 > div > .item_a0,
+:root .sidebar_c25c6d > div > .item_a0,
 :root #bd-settings-sidebar .ui-tab-bar-item {
   padding: 8px 0 8px 10px;
   border-radius: 5px 0 0 5px;
