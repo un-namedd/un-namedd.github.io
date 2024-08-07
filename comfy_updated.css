@@ -700,10 +700,17 @@
 
 :root .unread_d8bfb3 {
     top: 50%;
+<<<<<<< HEAD
+    left: 2px;
+    width: 5px;
+    height: 6px;
+    z-index: 1;
+=======
     left: 15px;
     width: 15px;
     height: 14px;
     z-index: 5;
+>>>>>>> 55264670def61b3a5c5b5a4d7a05f9cabfa8b546
     background-color: var(--unread-color);
     border-radius: 10px;
     margin-top: 0;
@@ -713,11 +720,16 @@
 :root .unread_d8bfb3::before {
     content: "";
     position: absolute;
+<<<<<<< HEAD
+    width: 5px;
+    height: 6px;
+=======
     width: 15px;
     height: 14px;
+>>>>>>> 55264670def61b3a5c5b5a4d7a05f9cabfa8b546
     background-color: inherit;
     border-radius: 100%;
-    z-index: 5;
+    z-index: 1;
     animation: var(--disable-animations), pulse 2s infinite;
     will-change: transform;
 }
