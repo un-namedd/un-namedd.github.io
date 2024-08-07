@@ -2,7 +2,6 @@
 :root .buttons_d5deea {
   transition: opacity 150ms;
 }
-
 :root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 {
   position: fixed;
   bottom: 26.5px;
@@ -1301,11 +1300,11 @@
 :root .customScroller_c25c6d > div {
   max-width: 95%;
 }
-:root .sidebar_c25c6d {
+:root .sidebar_a4d4d9 {
   padding: 60px 0 35px 65px;
   width: 285px;
 }
-:root .sidebar_c25c6d > div > .item_a0,
+:root .sidebar_a4d4d9 > div > .item_a0,
 :root #bd-settings-sidebar .ui-tab-bar-item {
   padding: 8px 0 8px 10px;
   border-radius: 5px 0 0 5px;
@@ -2529,4 +2528,3 @@
   bottom: 2px !important;
   left: 15px !important;
 }
-
