@@ -2340,6 +2340,24 @@
 :root #MemberCount {
   background-color: var(--background-secondary) !important;
 }
+:root .guilds_a4d4d9.content-Pph8t6 + .base_a4d4d9 .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 {
+  transition: margin-left 300ms linear;
+}
+:root .guilds_a4d4d9.content-Pph8t6:not(.closed-j55_T-) + .base_a4d4d9 .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 {
+  margin-left: 72px;
+}
+:root .vc-bf-folder-sidebar + .base_a4d4d9 .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 {
+  transition: margin-left 300ms linear;
+}
+:root .vc-bf-folder-sidebar + .base_a4d4d9 .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 {
+  margin-left: 72px;
+}
+:root .sidebar_a4d4d9 .avatarWrapper_b2ca13 {
+  transition: margin-left 400ms ease;
+}
+:root .sidebar_a4d4d9.hideChannelElement .avatarWrapper_b2ca13 {
+  margin-left: -240px;
+}
 :root .root-8LYsGj .UserBackgrounds-banner-container {
   position: static;
 }
