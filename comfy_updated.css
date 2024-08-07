@@ -36,24 +36,6 @@
     border-radius: 8px;
 }
 
-:root .spamBanner_c1da2c {
-    position: relative;
-    flex-direction: column;
-    left: 56px;
-    bottom: 8px;
-    width: 330px;
-    height: fit-content;
-    row-gap: 30px;
-}
-
-:root .spamBanner_c1da2c .bannerTextContainer_c1da2c {
-    min-width: 0;
-}
-
-:root .spamBanner_c1da2c .actionButtons_c1da2c {
-    justify-content: space-around;
-}
-
 :root .messagesErrorBar_cf58b5 {
     border-radius: 15px;
     padding-bottom: 0;
@@ -62,6 +44,10 @@
 
 :root .messagesErrorBar_cf58b5:active {
     margin-bottom: 14px;
+}
+
+:root .spamBanner_c1da2c {
+    display: block;
 }
 
 :root .newMessagesBar_cf58b5 {
@@ -700,10 +686,10 @@
 
 :root .unread_d8bfb3 {
     top: 50%;
-    left: 5px;
+    left: 210px;
     width: 5px;
-    height: 6px;
-    z-index: 0;
+    height: 5px;
+    z-index: 1;
     background-color: var(--unread-color);
     border-radius: 10px;
     margin-top: 0;
@@ -714,12 +700,19 @@
     content: "";
     position: absolute;
     width: 5px;
-    height: 6px;
+    height: 5px;
     background-color: inherit;
     border-radius: 100%;
-    z-index: 0;
-    animation: var(--disable-animations), pulse 2s infinite;
+    z-index: 1;
     will-change: transform;
+}
+
+:root .iconContainer_d8bfb3 .icon_d8bfb3 {
+    display: block;
+}
+
+:root .iconItem_f6f816[aria-label="Create Invite"] {
+    display: none;
 }
 
 :root .activityPanel_a4d4d9,
