@@ -16,23 +16,6 @@
 :root .chat_a7d72e > .content_a7d72e > .container_a6d69a > .list_a6d69a[data-list-id^=forum-channel-list] {
   background-color: var(--background-primary);
 }
-:root .chat_a7d72e .form_a7d72e {
-  padding-left: 66px;
-}
-:root .chat_a7d72e .form_a7d72e .wrapper_faf5ab {
-  z-index: unset;
-}
-:root .chat_a7d72e .form_a7d72e .channelTextArea_a7d72e .scrollableContainer_d0696b::after,
-:root .chat_a7d72e .form_a7d72e .wrapper_faf5ab::after {
-  position: absolute;
-  content: "";
-  bottom: 2px;
-  left: -50px;
-  width: 40px;
-  height: 40px;
-  background-color: var(--background-secondary);
-  border-radius: calc(var(--avatar-radius) + 2px);
-}
 :root .typing_d7ebeb {
   left: 66px;
   right: 26px;
