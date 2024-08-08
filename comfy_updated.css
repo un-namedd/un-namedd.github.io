@@ -696,6 +696,7 @@
     transform: translate(0%, -50%);
 }
 
+
 :root .unread_d8bfb3::before {
     content: "";
     position: absolute;
@@ -708,8 +709,16 @@
 }
 
 :root .iconContainer_d8bfb3 .icon_d8bfb3 {
+    height: 18px;
+    width: 18px;
     display: block;
 }
+
+:root .mentionsBadge_e2a798 {
+    display: block;
+    left: -190px;
+}
+
 
 :root .iconItem_f6f816[aria-label="Create Invite"] {
     display: none;
@@ -3014,4 +3023,4 @@
 .member_aa4760 .username__11d8c::after {
     bottom: 2px !important;
     left: 15px !important;
-}
+                                }
