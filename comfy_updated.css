@@ -420,14 +420,12 @@
     padding: 0;
 }
 
-:root .unreadMentionsIndicatorTop_fea3ef .unreadMentionsBar_fea3ef {
-    border-radius: 0;
-    background: linear-gradient(var(--mention-color), rgba(0, 0, 0, 0));
-    transition: 100ms;
-}
-
 :root .unreadMentionsIndicatorTop_fea3ef .unreadMentionsBar_fea3ef:active {
     background: linear-gradient(var(--mention-color), rgba(0, 0, 0, 0));
+}
+
+:root .unreadMentionsIndicatorBottom_fea3ef {
+    width: 100%;
 }
 
 :root .lowerBadge_c5f96a {
@@ -1545,15 +1543,27 @@
 }
 
 :root .accountProfileCard_b69b77 {
-    background-color: var(--background-secondary);
+    background-color: var(--background-primary);
 }
 
 :root .accountProfileCard_b69b77 .userInfo_b69b77 {
     position: relative;
 }
 
+:root .profileCardUsernameRow_b69b77 {
+    position: relative;
+    right: -115px;
+}
+:root .userInfo_b69b77 .container_b64375.badgeList_b69b77 {
+    position: relative;
+    right: -110px;
+    background-color: #242424;
+}
+
 :root .accountProfileCard_b69b77 .userInfo_b69b77 .avatar_b69b77 {
-    top: -14px;
+    top: -20px;
+    left: 100px;
+    transform: scale(1.6);
     border-color: transparent;
     border-width: 9px 0;
     background-color: transparent;
@@ -1580,7 +1590,11 @@
 }
 
 :root .accountProfileCard_b69b77 .background_b69b77 {
+    background-color: #242424;
     margin-right: 0;
+}
+:root .fieldList_b69b77 {
+    background-color: #242424;
 }
 
 :root .preview_bad983 .bannerSVGWrapper_b32cc2 {
@@ -2413,6 +2427,10 @@
 
 .titleBar_a934d8 {
     z-index: 1001;
+    height: 27px;
+    background-color: #171717;
+    margin: 0px;
+    padding: #171717;
 }
 
 .winButton_a934d8:not(:last-child)>svg {
@@ -2426,11 +2444,17 @@
 }
 
 .winButton_a934d8:hover {
-    background-color: var(--background-tertiary);
+    background-color: #4b4545;
 }
 
 .winButtonClose_a934d8 {
-    margin-right: 5px;
+    margin-right: 0px;
+    margin-top: 4px;
+    padding: 2.5px;
+}
+.winButtonMinMax_a934d8 {
+    margin-top: 4px;
+    padding: 2.5px;
 }
 
 .winButtonClose_a934d8::after {
@@ -3023,4 +3047,4 @@
 .member_aa4760 .username__11d8c::after {
     bottom: 2px !important;
     left: 15px !important;
-                                }
+}
