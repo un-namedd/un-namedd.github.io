@@ -1512,11 +1512,11 @@
     background-color: rgba(0, 81, 174, 0.3254901961);
 }
 
-:root .contentRegion__23e6b {
+:root .contentRegion_c25c6d {
     flex: 1 1 100%;
 }
 
-:root .contentColumn__23e6b,
+:root .contentColumn_c25c6d,
 :root .customColumn_c25c6d,
 :root .sidebarScrollable_e9196a+.content_e9196a,
 :root .customScroller_c25c6d>div {
@@ -1839,11 +1839,11 @@
     display: none;
 }
 
-:root .sidebar__23e6b {
+:root .sidebar_e87574 {
     border: none;
 }
 
-:root .sidebar__23e6b .list_e87574 {
+:root .sidebar_e87574 .list_e87574 {
     padding: 0 20px;
     position: relative;
     overflow: hidden;
@@ -1851,18 +1851,18 @@
     border-radius: 0;
 }
 
-:root .sidebar__23e6b .list_e87574 .role_e4010c {
+:root .sidebar_e87574 .list_e87574 .role_e4010c {
     border-radius: 5px;
     margin-bottom: 6px;
     padding-left: 20px;
 }
 
-:root .sidebar__23e6b .list_e87574 .role_e4010c .roleCircle_a26d7b {
+:root .sidebar_e87574 .list_e87574 .role_e4010c .roleCircle_a26d7b {
     width: 0;
     margin: 0;
 }
 
-:root .sidebar__23e6b .list_e87574 .role_e4010c .roleCircle_a26d7b::before {
+:root .sidebar_e87574 .list_e87574 .role_e4010c .roleCircle_a26d7b::before {
     position: absolute;
     border-radius: 5px;
     content: "";
@@ -1876,21 +1876,21 @@
     transition: opacity 200ms;
 }
 
-:root .sidebar__23e6b .list_e87574 .role_e4010c .roleName-3910zV {
+:root .sidebar_e87574 .list_e87574 .role_e4010c .roleName-3910zV {
     margin-left: 0;
 }
 
-:root .sidebar__23e6b .item_a0:hover:not(.disabled_a0),
-:root .sidebar__23e6b .topPill-3DJJNV .item_a0:hover:not(.disabled_a0),
-:root .sidebar__23e6b .selected_a0.item_a0,
-:root .sidebar__23e6b .topPill-3DJJNV .selected_a0.item_a0 {
+:root .sidebar_e87574 .item_a0:hover:not(.disabled_a0),
+:root .sidebar_e87574 .topPill-3DJJNV .item_a0:hover:not(.disabled_a0),
+:root .sidebar_e87574 .selected_a0.item_a0,
+:root .sidebar_e87574 .topPill-3DJJNV .selected_a0.item_a0 {
     background: none;
 }
 
-:root .sidebar__23e6b .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::after,
-:root .sidebar__23e6b .topPill-3DJJNV .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::after,
-:root .sidebar__23e6b .selected_a0.item_a0 .roleCircle_a26d7b::after,
-:root .sidebar__23e6b .topPill-3DJJNV .selected_a0.item_a0 .roleCircle_a26d7b::after {
+:root .sidebar_e87574 .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::after,
+:root .sidebar_e87574 .topPill-3DJJNV .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::after,
+:root .sidebar_e87574 .selected_a0.item_a0 .roleCircle_a26d7b::after,
+:root .sidebar_e87574 .topPill-3DJJNV .selected_a0.item_a0 .roleCircle_a26d7b::after {
     position: absolute;
     border-radius: 3px;
     content: "";
@@ -1903,27 +1903,27 @@
     transition: opacity 200ms;
 }
 
-:root .sidebar__23e6b .item_a0:hover:not(.disabled_a0),
-:root .sidebar__23e6b .topPill-3DJJNV .item_a0:hover:not(.disabled_a0) {
+:root .sidebar_e87574 .item_a0:hover:not(.disabled_a0),
+:root .sidebar_e87574 .topPill-3DJJNV .item_a0:hover:not(.disabled_a0) {
     background: none;
 }
 
-:root .sidebar__23e6b .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::before,
-:root .sidebar__23e6b .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::after,
-:root .sidebar__23e6b .topPill-3DJJNV .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::before,
-:root .sidebar__23e6b .topPill-3DJJNV .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::after {
+:root .sidebar_e87574 .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::before,
+:root .sidebar_e87574 .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::after,
+:root .sidebar_e87574 .topPill-3DJJNV .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::before,
+:root .sidebar_e87574 .topPill-3DJJNV .item_a0:hover:not(.disabled_a0) .roleCircle_a26d7b::after {
     opacity: 0.3;
 }
 
-:root .sidebar__23e6b .selected_a0.item_a0,
-:root .sidebar__23e6b .topPill-3DJJNV .selected_a0.item_a0 {
+:root .sidebar_e87574 .selected_a0.item_a0,
+:root .sidebar_e87574 .topPill-3DJJNV .selected_a0.item_a0 {
     background: none;
 }
 
-:root .sidebar__23e6b .selected_a0.item_a0 .roleCircle_a26d7b::before,
-:root .sidebar__23e6b .selected_a0.item_a0 .roleCircle_a26d7b::after,
-:root .sidebar__23e6b .topPill-3DJJNV .selected_a0.item_a0 .roleCircle_a26d7b::before,
-:root .sidebar__23e6b .topPill-3DJJNV .selected_a0.item_a0 .roleCircle_a26d7b::after {
+:root .sidebar_e87574 .selected_a0.item_a0 .roleCircle_a26d7b::before,
+:root .sidebar_e87574 .selected_a0.item_a0 .roleCircle_a26d7b::after,
+:root .sidebar_e87574 .topPill-3DJJNV .selected_a0.item_a0 .roleCircle_a26d7b::before,
+:root .sidebar_e87574 .topPill-3DJJNV .selected_a0.item_a0 .roleCircle_a26d7b::after {
     opacity: 0.5 !important;
 }
 
